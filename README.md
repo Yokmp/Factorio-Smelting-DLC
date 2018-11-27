@@ -2,7 +2,7 @@
 
 This README is a stub!<br />
 
-### Please rename the Folder inside the Zip-File to Smelting-DLC_$VERSION
+### ![Download the Zip-File here!](https://github.com/Yokmp/Factorio-Smelting-DLC/releases/download/testing/Smelting-DLC_0.0.1.zip)
 <!-- ![ScreenShot](.github/shot_1.jpg) -->
 
 This Mod is written under Factorio 0.16.36.
