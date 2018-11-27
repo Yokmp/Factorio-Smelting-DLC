@@ -1,4 +1,4 @@
-# Molten Metals Mod for Factorio.
+# A Molten Metals Mod for Factorio.
 
 This README is a stub!<br />
 
