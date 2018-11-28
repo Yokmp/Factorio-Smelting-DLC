@@ -10,7 +10,7 @@ data:extend({
     crafting_machine_tint = { primary = {r = 0.9, g = 0.5, b = 0.5, a = 0},   -- boiling
                               secondary = {r = 0.9, g = 0.5, b = 0.5, a = 0}, -- mask
                               tertiary = {r = 0.9, g = 0.5, b = 0.5, a = 0} },-- window
-    icon = "__Smelting_DLC__/graphics/icons/landfill.png",
+    icon = "__Smelting-DLC__/graphics/icons/landfill.png",
     icon_size = 32,
     enabled = false,
     energy_required = 0.5,
@@ -31,7 +31,7 @@ data:extend({
     crafting_machine_tint = { primary = {r = 0.9, g = 0.5, b = 0.5, a = 0},   -- boiling
                               secondary = {r = 0.9, g = 0.5, b = 0.5, a = 0}, -- mask
                               tertiary = {r = 0.9, g = 0.5, b = 0.5, a = 0} },-- window
-    icon = "__Smelting_DLC__/graphics/icons/slag-brick.png",
+    icon = "__Smelting-DLC__/graphics/icons/slag-brick.png",
     icon_size = 32,
     enabled = false,
     energy_required = 3.5,
@@ -51,7 +51,7 @@ data:extend({
     name = "slag-powder",
     category = "crafting",
     subgroup = "intermediate-product",
-    icon = "__Smelting_DLC__/graphics/icons/slag-powder.png",
+    icon = "__Smelting-DLC__/graphics/icons/slag-powder.png",
     icon_size = 32,
     enabled = false,
     energy_required = 2,
@@ -69,7 +69,7 @@ data:extend({
     type = "recipe",
     name = "powder-concrete",
     category = "crafting-with-fluid",
-    icon = "__Smelting_DLC__/graphics/icons/slag-concrete.png",
+    icon = "__Smelting-DLC__/graphics/icons/slag-concrete.png",
     icon_size = 32,
     enabled = false,
     energy_required = 1,
@@ -89,7 +89,7 @@ data:extend({
     name = "slag-pellet",
     category = "crafting",
     subgroup = "intermediate-product",
-    icon = "__Smelting_DLC__/graphics/icons/slag-pellet.png",
+    icon = "__Smelting-DLC__/graphics/icons/slag-pellet.png",
     icon_size = 32,
     enabled = false,
     energy_required = 1,
@@ -108,7 +108,7 @@ data:extend({
     name = "pellet-iron",
     category = "crafting-with-fluid",
     subgroup = "raw-material",
-    icon = "__Smelting_DLC__/graphics/icons/pellet-iron.png",
+    icon = "__Smelting-DLC__/graphics/icons/pellet-iron.png",
     icon_size = 32,
     enabled = false,
     energy_required = 1,
@@ -129,7 +129,7 @@ data:extend({
     name = "pellet-copper",
     subgroup = "raw-material",
     category = "crafting-with-fluid",
-    icon = "__Smelting_DLC__/graphics/icons/pellet-copper.png",
+    icon = "__Smelting-DLC__/graphics/icons/pellet-copper.png",
     icon_size = 32,
     enabled = false,
     energy_required = 1,

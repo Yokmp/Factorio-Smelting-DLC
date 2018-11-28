@@ -14,7 +14,7 @@ data:extend({
         secondary = {r = 230/255, g = 125/255, b = 125/255, a = 0}, -- mask
       	tertiary = {r = 230/255, g = 125/255, b = 125/255, a = 0}   -- window
       },
-      icon = "__Smelting_DLC__/graphics/icons/copper-fluid.png",
+      icon = "__Smelting-DLC__/graphics/icons/copper-fluid.png",
       icon_size = 32,
       normal = {
 				enabled = false,
@@ -52,7 +52,7 @@ data:extend({
 				secondary = {r = 230/255, g = 125/255, b = 125/255, a = 0}, -- mask
 				tertiary = {r = 230/255, g = 125/255, b = 125/255, a = 0}   -- window
 			},
-			icon = "__Smelting_DLC__/graphics/icons/copper-fluid.png",
+			icon = "__Smelting-DLC__/graphics/icons/copper-fluid.png",
 			icon_size = 32,
 			normal = {
 				enabled = false,
@@ -89,7 +89,7 @@ data:extend({
         secondary = {r = 230/255, g = 125/255, b = 125/255, a = 0}, -- mask
       	tertiary = {r = 230/255, g = 125/255, b = 125/255, a = 0}   -- window
       },
-      icon = "__Smelting_DLC__/graphics/icons/copper-casting.png",
+      icon = "__Smelting-DLC__/graphics/icons/copper-casting.png",
       icon_size = 32,
       normal = {
         enabled = false,
@@ -128,7 +128,7 @@ data:extend({
         secondary = {r = 230/255, g = 125/255, b = 125/255, a = 0}, -- mask
       	tertiary = {r = 230/255, g = 125/255, b = 125/255, a = 0}   -- window
       },
-			icon = "__Smelting_DLC__/graphics/icons/copper-ingot.png",
+			icon = "__Smelting-DLC__/graphics/icons/copper-ingot.png",
 			icon_size = 32,
 			normal = {
 				enabled = false,
@@ -160,7 +160,7 @@ data:extend({
       type = "recipe",
       name = "copper-ingot-plate",
       category = "crafting",
-      icon = "__Smelting_DLC__/graphics/icons/copper-ingot-plate.png",
+      icon = "__Smelting-DLC__/graphics/icons/copper-ingot-plate.png",
       icon_size = 32,
       normal = {
         energy_required = 1.5,
@@ -191,7 +191,7 @@ data:extend({
       name = "copper-ingot-roll",
       category = "crafting",
 			subgroup = "raw-material",
-      icon = "__Smelting_DLC__/graphics/icons/copper-ingot-roll.png",
+      icon = "__Smelting-DLC__/graphics/icons/copper-ingot-roll.png",
       icon_size = 32,
       normal = {
         energy_required = 1,
@@ -221,7 +221,7 @@ data:extend({
       type = "recipe",
       name = "copper-roll-plate",
       category = "crafting",
-      icon = "__Smelting_DLC__/graphics/icons/copper-roll-plate.png",
+      icon = "__Smelting-DLC__/graphics/icons/copper-roll-plate.png",
       icon_size = 32,
       normal = {
         energy_required = 0.5,

@@ -6,7 +6,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "basic-smelter",
-    icon = "__Smelting_DLC__/graphics/icons/basic-smelter.png",
+    icon = "__Smelting-DLC__/graphics/icons/basic-smelter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "basic-smelter"},
@@ -54,14 +54,14 @@ data:extend({
     animation = {
       layers = {
         {
-          filename = "__Smelting_DLC__/graphics/entity/basic-smelter/smelter.png",
+          filename = "__Smelting-DLC__/graphics/entity/basic-smelter/smelter.png",
           priority = "high",
           width = 85,
           height = 87,
           frame_count = 1,
           shift = util.by_pixel(-1.5, 1.5),
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/basic-smelter/hr-smelter.png",
+            filename = "__Smelting-DLC__/graphics/entity/basic-smelter/hr-smelter.png",
             priority = "high",
             width = 171,
             height = 174,
@@ -71,7 +71,7 @@ data:extend({
           }
         },
         {
-          filename = "__Smelting_DLC__/graphics/entity/basic-smelter/smelter-shadow.png",
+          filename = "__Smelting-DLC__/graphics/entity/basic-smelter/smelter-shadow.png",
           priority = "high",
           width = 139,
           height = 43,
@@ -79,7 +79,7 @@ data:extend({
           draw_as_shadow = true,
           shift = util.by_pixel(39.5, 11.5),
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/basic-smelter/hr-smelter-shadow.png",
+            filename = "__Smelting-DLC__/graphics/entity/basic-smelter/hr-smelter-shadow.png",
             priority = "high",
             width = 277,
             height = 85,
@@ -99,7 +99,7 @@ data:extend({
         west_position = {0.0, 0.0},
         animation =
         {
-          filename = "__Smelting_DLC__/graphics/entity/basic-smelter/smelter-fire.png",
+          filename = "__Smelting-DLC__/graphics/entity/basic-smelter/smelter-fire.png",
           priority = "high",
           line_length = 8,
           width = 29,
@@ -109,7 +109,7 @@ data:extend({
           direction_count = 1,
           shift = util.by_pixel(-0.5, 6),
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/basic-smelter/hr-smelter-fire.png",
+            filename = "__Smelting-DLC__/graphics/entity/basic-smelter/hr-smelter-fire.png",
             priority = "high",
             line_length = 8,
             width = 57,
@@ -131,7 +131,7 @@ data:extend({
         effect = "flicker", -- changes alpha based on energy source light intensity
         animation =
         {
-          filename = "__Smelting_DLC__/graphics/entity/basic-smelter/smelter-glow.png",
+          filename = "__Smelting-DLC__/graphics/entity/basic-smelter/smelter-glow.png",
           priority = "high",
           width = 60,
           height = 43,
@@ -148,7 +148,7 @@ data:extend({
         effect = "flicker", -- changes alpha based on energy source light intensity
         animation =
         {
-          filename = "__Smelting_DLC__/graphics/entity/basic-smelter/smelter-working.png",
+          filename = "__Smelting-DLC__/graphics/entity/basic-smelter/smelter-working.png",
           priority = "high",
           line_length = 8,
           width = 64,
@@ -159,7 +159,7 @@ data:extend({
           shift = util.by_pixel(0, - 4.5),
           blend_mode = "additive",
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/basic-smelter/hr-smelter-working.png",
+            filename = "__Smelting-DLC__/graphics/entity/basic-smelter/hr-smelter-working.png",
             priority = "high",
             line_length = 8,
             width = 130,
@@ -193,7 +193,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "advanced-smelter",
-    icon = "__Smelting_DLC__/graphics/icons/advanced-smelter.png",
+    icon = "__Smelting-DLC__/graphics/icons/advanced-smelter.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "advanced-smelter"},
@@ -250,14 +250,14 @@ data:extend({
     animation = {
       layers = {
         {
-          filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/advanced-smelter.png",
+          filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/advanced-smelter.png",
           priority = "high",
           width = 129,
           height = 100,
           frame_count = 1,
           shift = {0.421875, 0},
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter.png",
+            filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter.png",
             priority = "high",
             width = 239,
             height = 219,
@@ -267,7 +267,7 @@ data:extend({
           }
         },
         {
-          filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/advanced-smelter-shadow.png",
+          filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/advanced-smelter-shadow.png",
           priority = "high",
           width = 129,
           height = 100,
@@ -275,7 +275,7 @@ data:extend({
           shift = {0.421875, 0},
           draw_as_shadow = true,
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-shadow.png",
+            filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-shadow.png",
             priority = "high",
             width = 227,
             height = 171,
@@ -291,7 +291,7 @@ data:extend({
       {
         animation =
         {
-          filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/advanced-smelter-heater.png",
+          filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/advanced-smelter-heater.png",
           priority = "high",
           width = 25,
           height = 15,
@@ -299,7 +299,7 @@ data:extend({
           animation_speed = 0.5,
           shift = {0.015625, 0.890625},
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-heater.png",
+            filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-heater.png",
             priority = "high",
             width = 60,
             height = 56,
@@ -314,7 +314,7 @@ data:extend({
       {
         animation =
         {
-          filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/advanced-smelter-propeller-1.png",
+          filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/advanced-smelter-propeller-1.png",
           priority = "high",
           width = 19,
           height = 13,
@@ -322,7 +322,7 @@ data:extend({
           animation_speed = 0.5,
           shift = { - 0.671875, - 0.640625},
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-propeller-1.png",
+            filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-propeller-1.png",
             priority = "high",
             width = 37,
             height = 25,
@@ -336,7 +336,7 @@ data:extend({
       {
         animation =
         {
-          filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/advanced-smelter-propeller-2.png",
+          filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/advanced-smelter-propeller-2.png",
           priority = "high",
           width = 12,
           height = 9,
@@ -344,7 +344,7 @@ data:extend({
           animation_speed = 0.5,
           shift = {0.0625, - 1.234375},
           hr_version = {
-            filename = "__Smelting_DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-propeller-2.png",
+            filename = "__Smelting-DLC__/graphics/entity/advanced-smelter/hr-advanced-smelter-propeller-2.png",
             priority = "high",
             width = 23,
             height = 15,
@@ -375,7 +375,7 @@ data:extend({
   {
     type = "assembling-machine",
     name = "basic-caster",
-    icon = "__Smelting_DLC__/graphics/icons/basic-caster.png",
+    icon = "__Smelting-DLC__/graphics/icons/basic-caster.png",
     icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "basic-caster"},
@@ -409,13 +409,13 @@ data:extend({
     animation = make_4way_animation_from_spritesheet({
       layers = {
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/basic-caster.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/basic-caster.png",
         width = 122,
         height = 134,
         frame_count = 1,
         shift = util.by_pixel(-5, - 4.5),
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-basic-caster.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-basic-caster.png",
           width = 244,
           height = 268,
           frame_count = 1,
@@ -424,14 +424,14 @@ data:extend({
         }
       },
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/caster-shadow.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/caster-shadow.png",
         width = 175,
         height = 110,
         frame_count = 1,
         shift = util.by_pixel(31.5, 11),
         draw_as_shadow = true,
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-caster-shadow.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-caster-shadow.png",
           width = 350,
           height = 219,
           frame_count = 1,
@@ -450,13 +450,13 @@ data:extend({
       apply_recipe_tint = "primary",
       animation =
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/boiling-green-patch.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/boiling-green-patch.png",
         frame_count = 32,
         width = 15,
         height = 10,
         animation_speed = 0.5,
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-green-patch.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-green-patch.png",
           frame_count = 32,
           width = 30,
           height = 20,
@@ -473,13 +473,13 @@ data:extend({
       apply_recipe_tint = "secondary",
       animation =
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/boiling-green-patch-mask.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/boiling-green-patch-mask.png",
         frame_count = 32,
         width = 15,
         height = 10,
         animation_speed = 0.5,
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-green-patch-mask.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-green-patch-mask.png",
           frame_count = 32,
           width = 30,
           height = 20,
@@ -496,13 +496,13 @@ data:extend({
       east_position = {0, 0},
       north_animation =
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/boiling-window-green-patch.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/boiling-window-green-patch.png",
         frame_count = 1,
         width = 87,
         height = 60,
         shift = util.by_pixel(0, - 5),
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
           x = 0,
           frame_count = 1,
           width = 174,
@@ -513,14 +513,14 @@ data:extend({
       },
       east_animation =
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/boiling-window-green-patch.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/boiling-window-green-patch.png",
         x = 87,
         frame_count = 1,
         width = 87,
         height = 60,
         shift = util.by_pixel(0, - 5),
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
           x = 174,
           frame_count = 1,
           width = 174,
@@ -531,14 +531,14 @@ data:extend({
       },
       south_animation =
       {
-        filename = "__Smelting_DLC__/graphics/entity/caster/boiling-window-green-patch.png",
+        filename = "__Smelting-DLC__/graphics/entity/caster/boiling-window-green-patch.png",
         x = 174,
         frame_count = 1,
         width = 87,
         height = 60,
         shift = util.by_pixel(0, - 5),
         hr_version = {
-          filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
+          filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
           x = 348,
           frame_count = 1,
           width = 174,
@@ -598,7 +598,7 @@ data:extend({
 {
   type = "assembling-machine",
   name = "advanced-caster",
-  icon = "__Smelting_DLC__/graphics/icons/advanced-caster.png",
+  icon = "__Smelting-DLC__/graphics/icons/advanced-caster.png",
   icon_size = 32,
   flags = {"placeable-neutral", "placeable-player", "player-creation"},
   minable = {hardness = 0.2, mining_time = 0.5, result = "advanced-caster"},
@@ -632,13 +632,13 @@ data:extend({
   animation = make_4way_animation_from_spritesheet({
     layers = {
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/advanced-caster.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/advanced-caster.png",
 	      width = 122,
 	      height = 134,
 	      frame_count = 1,
 	      shift = util.by_pixel(-5, - 4.5),
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-advanced-caster.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-advanced-caster.png",
 	        width = 244,
 	        height = 268,
 	        frame_count = 1,
@@ -647,14 +647,14 @@ data:extend({
 	      }
 	    },
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/caster-shadow.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/caster-shadow.png",
 	      width = 175,
 	      height = 110,
 	      frame_count = 1,
 	      shift = util.by_pixel(31.5, 11),
 	      draw_as_shadow = true,
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-caster-shadow.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-caster-shadow.png",
 	        width = 350,
 	        height = 219,
 	        frame_count = 1,
@@ -674,13 +674,13 @@ data:extend({
 	    apply_recipe_tint = "primary",
 	    animation =
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/boiling-green-patch.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/boiling-green-patch.png",
 	      frame_count = 32,
 	      width = 15,
 	      height = 10,
 	      animation_speed = 0.5,
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-green-patch.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-green-patch.png",
 	        frame_count = 32,
 	        width = 30,
 	        height = 20,
@@ -697,13 +697,13 @@ data:extend({
 	    apply_recipe_tint = "secondary",
 	    animation =
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/boiling-green-patch-mask.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/boiling-green-patch-mask.png",
 	      frame_count = 32,
 	      width = 15,
 	      height = 10,
 	      animation_speed = 0.5,
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-green-patch-mask.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-green-patch-mask.png",
 	        frame_count = 32,
 	        width = 30,
 	        height = 20,
@@ -720,13 +720,13 @@ data:extend({
 	    east_position = {0, 0},
 	    north_animation =
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/boiling-window-green-patch.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/boiling-window-green-patch.png",
 	      frame_count = 1,
 	      width = 87,
 	      height = 60,
 	      shift = util.by_pixel(0, - 5),
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
 	        x = 0,
 	        frame_count = 1,
 	        width = 174,
@@ -737,14 +737,14 @@ data:extend({
 	    },
 	    east_animation =
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/boiling-window-green-patch.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/boiling-window-green-patch.png",
 	      x = 87,
 	      frame_count = 1,
 	      width = 87,
 	      height = 60,
 	      shift = util.by_pixel(0, - 5),
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
 	        x = 174,
 	        frame_count = 1,
 	        width = 174,
@@ -755,14 +755,14 @@ data:extend({
 	    },
 	    south_animation =
 	    {
-	      filename = "__Smelting_DLC__/graphics/entity/caster/boiling-window-green-patch.png",
+	      filename = "__Smelting-DLC__/graphics/entity/caster/boiling-window-green-patch.png",
 	      x = 174,
 	      frame_count = 1,
 	      width = 87,
 	      height = 60,
 	      shift = util.by_pixel(0, - 5),
 	      hr_version = {
-	        filename = "__Smelting_DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
+	        filename = "__Smelting-DLC__/graphics/entity/caster/hr-boiling-window-green-patch.png",
 	        x = 348,
 	        frame_count = 1,
 	        width = 174,

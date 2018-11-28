@@ -5,7 +5,7 @@ data:extend({
   {
     type = "item",
     name = "basic-caster",
-    icon = "__Smelting_DLC__/graphics/icons/basic-caster.png",
+    icon = "__Smelting-DLC__/graphics/icons/basic-caster.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
@@ -16,7 +16,7 @@ data:extend({
   {
     type = "item",
     name = "advanced-caster",
-    icon = "__Smelting_DLC__/graphics/icons/advanced-caster.png",
+    icon = "__Smelting-DLC__/graphics/icons/advanced-caster.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
@@ -27,7 +27,7 @@ data:extend({
   {
     type = "item",
     name = "basic-smelter",
-    icon = "__Smelting_DLC__/graphics/icons/basic-smelter.png",
+    icon = "__Smelting-DLC__/graphics/icons/basic-smelter.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",
@@ -38,7 +38,7 @@ data:extend({
   {
     type = "item",
     name = "advanced-smelter",
-    icon = "__Smelting_DLC__/graphics/icons/advanced-smelter.png",
+    icon = "__Smelting-DLC__/graphics/icons/advanced-smelter.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "production-machine",

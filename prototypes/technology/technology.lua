@@ -10,7 +10,7 @@ data:extend(
     type = "technology",
     name = "basic-casting",
     icon_size = 128,
-    icon = "__Smelting_DLC__/graphics/technology/smelting.png",
+    icon = "__Smelting-DLC__/graphics/technology/smelting.png",
     effects =
     {
       {
@@ -58,7 +58,7 @@ data:extend(
     type = "technology",
     name = "basic-slag",
     icon_size = 64,
-    icon = "__Smelting_DLC__/graphics/technology/slag.png",
+    icon = "__Smelting-DLC__/graphics/technology/slag.png",
     effects =
     {
       {
@@ -92,7 +92,7 @@ data:extend(
     type = "technology",
     name = "ingot-casting",
     icon_size = 128,
-    icon = "__Smelting_DLC__/graphics/technology/ingot-casting.png",
+    icon = "__Smelting-DLC__/graphics/technology/ingot-casting.png",
     effects =
     {
       {
@@ -136,7 +136,7 @@ data:extend(
     type = "technology",
     name = "hot-rolled-metal",
     icon_size = 128,
-    icon = "__Smelting_DLC__/graphics/technology/hot-roll.png",
+    icon = "__Smelting-DLC__/graphics/technology/hot-roll.png",
     effects =
     {
       {
@@ -176,7 +176,7 @@ data:extend(
     type = "technology",
     name = "slag-powder",
     icon_size = 64,
-    icon = "__Smelting_DLC__/graphics/technology/slag-powder.png",
+    icon = "__Smelting-DLC__/graphics/technology/slag-powder.png",
     effects =
     {
       {
@@ -204,7 +204,7 @@ data:extend(
     type = "technology",
     name = "advanced-smelter",
     icon_size = 128,
-    icon = "__Smelting_DLC__/graphics/technology/advanced-smelting.png",
+    icon = "__Smelting-DLC__/graphics/technology/advanced-smelting.png",
     effects =
     {
       {
@@ -242,7 +242,7 @@ data:extend(
     type = "technology",
     name = "slag-pellet",
     icon_size = 64,
-    icon = "__Smelting_DLC__/graphics/technology/slag-pellet.png",
+    icon = "__Smelting-DLC__/graphics/technology/slag-pellet.png",
     effects =
     {
       {
